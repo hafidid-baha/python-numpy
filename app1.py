@@ -12,3 +12,6 @@ print(array[1,:])
 print(array[:,2])
 # getting a part of row slices [row,startindex:endindex:steps]
 print(array[1,1:5:1])
+# changing element
+array[1,2] = 20
+print(array)
