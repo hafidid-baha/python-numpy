@@ -6,3 +6,7 @@ print(array)
 
 twodimarray = np.array([[0,1,2],[4,5,6]])
 print(twodimarray)
+
+# getting the number of array dimentions
+print(array.ndim)
+print(twodimarray.ndim)
