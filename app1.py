@@ -15,3 +15,9 @@ print(array[1,1:5:1])
 # changing element
 array[1,2] = 20
 print(array)
+# changing row
+array[1,:] = 11
+print(array)
+# changing column
+array[:,1] = 11
+print(array)
