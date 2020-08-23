@@ -14,4 +14,7 @@ array3 = np.full((2,3,4),4)
 # print(array3)
 #using full like function to clone the shape of existing array
 array4 = np.full_like(array3,7)
-print(array4)
+# print(array4)
+# create rondom array
+array5 = np.random.rand(4,2)
+print(array5)
