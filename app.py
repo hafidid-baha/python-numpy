@@ -24,3 +24,7 @@ print(twodimarray.dtype)
 print("numpy array size")
 print(array.itemsize)
 print(twodimarray.itemsize)
+# get total items size
+print("total array size")
+print(array.size * array.itemsize)
+print(twodimarray.size * twodimarray.itemsize)
