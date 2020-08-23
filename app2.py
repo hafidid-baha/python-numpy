@@ -17,4 +17,7 @@ array4 = np.full_like(array3,7)
 # print(array4)
 # create rondom array
 array5 = np.random.rand(4,2)
-print(array5)
+# print(array5)
+#creating random integer values
+array6 = np.random.randint(8,size=(4,2))
+print(array6)
