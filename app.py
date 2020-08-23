@@ -27,4 +27,6 @@ print(twodimarray.itemsize)
 # get total items size
 print("total array size")
 print(array.size * array.itemsize)
+# getting the size of array using nbytes
+print(array.nbytes)
 print(twodimarray.size * twodimarray.itemsize)
