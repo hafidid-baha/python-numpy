@@ -6,3 +6,5 @@ print(array.shape)
 
 # getting a specific element [row,column]
 print(array[0,5]) #prints 6
+# getting specific row
+print(array[1,:])
