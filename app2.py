@@ -19,5 +19,8 @@ array4 = np.full_like(array3,7)
 array5 = np.random.rand(4,2)
 # print(array5)
 #creating random integer values
-array6 = np.random.randint(8,size=(4,2))
-print(array6)
+array6 = np.random.randint(8,40,size=(4,2))
+# print(array6)
+# creating identity matrix
+array7 = np.identity(7)
+print(array7)
