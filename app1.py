@@ -10,3 +10,5 @@ print(array[0,5]) #prints 6
 print(array[1,:])
 # getting a specific column
 print(array[:,2])
+# getting a part of row slices [row,startindex:endindex:steps]
+print(array[1,1:5:1])
