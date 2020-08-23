@@ -5,3 +5,6 @@ import numpy as np
 array =  np.zeros((2,2)) #create two dim array 2 rows and 2 cols
 print(array)
 
+#create 0s matrix
+array2 = np.ones((3,2))
+print(array2)
