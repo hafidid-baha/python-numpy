@@ -1,6 +1,7 @@
 import numpy as np
 
 array = np.array([1,2,3])
+# array = np.array([1,2,3],dtype='int16')
 
 print(array)
 
@@ -19,3 +20,7 @@ print(twodimarray.shape)
 print("array type")
 print(array.dtype)
 print(twodimarray.dtype)
+# getting the numpy array size
+print("numpy array size")
+print(array.itemsize)
+print(twodimarray.itemsize)
