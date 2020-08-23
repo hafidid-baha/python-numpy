@@ -8,3 +8,5 @@ print(array.shape)
 print(array[0,5]) #prints 6
 # getting specific row
 print(array[1,:])
+# getting a specific column
+print(array[:,2])
